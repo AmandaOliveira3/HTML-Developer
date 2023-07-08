@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+
+<body>
+    <form method="post">
+        <label>Text:</label> <input type="text"> <br>
+        <label>number:</label> <input type="number" step="5" min="0"> <br>
+        <!---No firefox não aparece as setinhas do input type number-->
+        <label>Range:</label> <input type="range" min="0" max="100"> <br>
+        <label>Color:</label> <input type="color"> <br>
+
+        <label>email:</label> <input type="email"> <br>
+        <label>Url:</label> <input type="url"> <br>
+        <label>Date:</label> <input type="date"> <br>
+        <label>Week:</label> <input type="week"> <br>
+        <!--week não funciona no firefox-->
+
+        <label>Month:</label> <input type="month"> <br>
+        <label>Checkbox:</label> 
+        <input type="checkbox" name="opcional[]" value="valor1"> <br>
+        <input type="checkbox" name="opcional[]" value="valor2"> <br>
+        <input type="checkbox" name="opcional[]" value="valor3"> <br>
+        <input type="checkbox" name="opcional[]" value="valor4"> <br>
+
+        <label>radio:</label> 
+        <input type="radio" name="opcao" value="sim"> sim <br>
+        <input type="radio" name="opcao" value="nao">Não <br>
+        
+
+        <label>Hidden:</label> <input type="hidden"> <br>
+        <label>File:</label> <input type="file"> <br>
+        <label>Search:</label> <input type="search"> <br>
+
+        <label>Button:</label> <input type="submit" value="enviar"> <br>
+
+    </form>
+
+</body>
+
+</html>
