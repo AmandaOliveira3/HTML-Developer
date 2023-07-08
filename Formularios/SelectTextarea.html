@@ -4,11 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sekect e TextArea</title>
+    <title>Select e TextArea</title>
 </head>
 
 <body>
+    <form onsubmit="" method="get">
+        <label for="Nome">Nome:</label>
+        <input type="text" name="name" placeholder="Informe o seu nome"><br>
 
+        <label>Cargo:</label>
+        <select name="role">
+            <option value="">Selecione o cargo:</option>
+            <option selected value="Diretor">Diretor</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Presidente">Presidente</option>
+        </select>
+        <br>
+
+        <label>Assunto:</label>
+        <textarea rows="10" cols="50" name="messsage">
+        </textarea>
+
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 
 </html>
